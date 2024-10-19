@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8409ADA62C7243DF003DAC4E /* GridView (Old).swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409ADA52C7243DF003DAC4E /* GridView (Old).swift */; };
+		84153B082CB9C8B700418D53 /* HashablePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84153B072CB9C8B700418D53 /* HashablePoint.swift */; };
+		84427D0D2C83B90A0080E3CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84427D0C2C83B90A0080E3CF /* HomeView.swift */; };
+		845054C52C7EC63B0040E11E /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845054C42C7EC63B0040E11E /* GameProtocol.swift */; };
+		846E361E2C7E244A006ED680 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E361D2C7E244A006ED680 /* GridView.swift */; };
+		846E36252C7E2DC8006ED680 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E36242C7E2DC8006ED680 /* PlayerView.swift */; };
+		846E36272C7E2E20006ED680 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E36262C7E2E20006ED680 /* Players.swift */; };
+		846EECCA2C8160A600278358 /* GameVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EECC92C8160A600278358 /* GameVM.swift */; };
+		8478F7CD2C6FE10700CFB41F /* Chain_ReactionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F7CC2C6FE10700CFB41F /* Chain_ReactionApp.swift */; };
+		8478F7D12C6FE10900CFB41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8478F7D02C6FE10900CFB41F /* Assets.xcassets */; };
+		8478F7D42C6FE10900CFB41F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8478F7D32C6FE10900CFB41F /* Preview Assets.xcassets */; };
+		8478F7DE2C6FE10900CFB41F /* Chain_ReactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F7DD2C6FE10900CFB41F /* Chain_ReactionTests.swift */; };
+		8478F7E82C6FE10A00CFB41F /* Chain_ReactionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F7E72C6FE10A00CFB41F /* Chain_ReactionUITests.swift */; };
+		8478F7EA2C6FE10A00CFB41F /* Chain_ReactionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F7E92C6FE10A00CFB41F /* Chain_ReactionUITestsLaunchTests.swift */; };
+		84A1007C2CC2F291002C2205 /* TimerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1007B2CC2F28E002C2205 /* TimerVM.swift */; };
+		84DBC3502CB84C22006B6A0D /* PlayerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBC34F2CB84C22006B6A0D /* PlayerImageView.swift */; };
+		84E0A9372CC83AAA005D7739 /* TurnRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0A9362CC83AA4005D7739 /* TurnRequestView.swift */; };
+		84E438AA2CC055AA0097AA7C /* GameEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E438A92CC055A80097AA7C /* GameEndView.swift */; };
+		84EF44022CB3050400E48306 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF44012CB3050400E48306 /* GameView.swift */; };
+		84EF44042CB3085B00E48306 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF44032CB3085B00E48306 /* AppColors.swift */; };
+		84F075912CC6E7960036700C /* GameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F075902CC6E7910036700C /* GameStartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8478F7DA2C6FE10900CFB41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8478F7C12C6FE10600CFB41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8478F7C82C6FE10700CFB41F;
+			remoteInfo = "Chain Reaction";
+		};
+		8478F7E42C6FE10A00CFB41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8478F7C12C6FE10600CFB41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8478F7C82C6FE10700CFB41F;
+			remoteInfo = "Chain Reaction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8409ADA52C7243DF003DAC4E /* GridView (Old).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GridView (Old).swift"; sourceTree = "<group>"; };
+		84153B072CB9C8B700418D53 /* HashablePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashablePoint.swift; sourceTree = "<group>"; };
+		84427D0C2C83B90A0080E3CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		845054C42C7EC63B0040E11E /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		846E361D2C7E244A006ED680 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		846E36242C7E2DC8006ED680 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		846E36262C7E2E20006ED680 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		846EECC92C8160A600278358 /* GameVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVM.swift; sourceTree = "<group>"; };
+		8478F7C92C6FE10700CFB41F /* Chain Reaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chain Reaction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8478F7CC2C6FE10700CFB41F /* Chain_ReactionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain_ReactionApp.swift; sourceTree = "<group>"; };
+		8478F7D02C6FE10900CFB41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8478F7D32C6FE10900CFB41F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8478F7D92C6FE10900CFB41F /* Chain ReactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chain ReactionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8478F7DD2C6FE10900CFB41F /* Chain_ReactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain_ReactionTests.swift; sourceTree = "<group>"; };
+		8478F7E32C6FE10A00CFB41F /* Chain ReactionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chain ReactionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8478F7E72C6FE10A00CFB41F /* Chain_ReactionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain_ReactionUITests.swift; sourceTree = "<group>"; };
+		8478F7E92C6FE10A00CFB41F /* Chain_ReactionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain_ReactionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84A1007B2CC2F28E002C2205 /* TimerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVM.swift; sourceTree = "<group>"; };
+		84CCB0092CCC2A5400B72674 /* Chain-Reaction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Chain-Reaction-Info.plist"; sourceTree = SOURCE_ROOT; };
+		84DBC34F2CB84C22006B6A0D /* PlayerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerImageView.swift; sourceTree = "<group>"; };
+		84E0A9362CC83AA4005D7739 /* TurnRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnRequestView.swift; sourceTree = "<group>"; };
+		84E438A92CC055A80097AA7C /* GameEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndView.swift; sourceTree = "<group>"; };
+		84EF44012CB3050400E48306 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		84EF44032CB3085B00E48306 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		84F075902CC6E7910036700C /* GameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8478F7C62C6FE10700CFB41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8478F7D62C6FE10900CFB41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8478F7E02C6FE10A00CFB41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846E361F2C7E2455006ED680 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				846EECC92C8160A600278358 /* GameVM.swift */,
+				845054C42C7EC63B0040E11E /* GameProtocol.swift */,
+				84A1007B2CC2F28E002C2205 /* TimerVM.swift */,
+				846E36262C7E2E20006ED680 /* Players.swift */,
+				84153B072CB9C8B700418D53 /* HashablePoint.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		846E36222C7E24DF006ED680 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84427D0C2C83B90A0080E3CF /* HomeView.swift */,
+				84EF44012CB3050400E48306 /* GameView.swift */,
+				846E361D2C7E244A006ED680 /* GridView.swift */,
+				84DBC34E2CB84BFA006B6A0D /* PlayerView */,
+				84E0A9382CC83AB2005D7739 /* Pop-Up Views */,
+				84EF44032CB3085B00E48306 /* AppColors.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846E36232C7E24F6006ED680 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				8409ADA52C7243DF003DAC4E /* GridView (Old).swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		8478F7C02C6FE10600CFB41F = {
+			isa = PBXGroup;
+			children = (
+				8478F7CB2C6FE10700CFB41F /* Chain Reaction */,
+				8478F7DC2C6FE10900CFB41F /* Chain ReactionTests */,
+				8478F7E62C6FE10A00CFB41F /* Chain ReactionUITests */,
+				8478F7CA2C6FE10700CFB41F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8478F7CA2C6FE10700CFB41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8478F7C92C6FE10700CFB41F /* Chain Reaction.app */,
+				8478F7D92C6FE10900CFB41F /* Chain ReactionTests.xctest */,
+				8478F7E32C6FE10A00CFB41F /* Chain ReactionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8478F7CB2C6FE10700CFB41F /* Chain Reaction */ = {
+			isa = PBXGroup;
+			children = (
+				84CCB0092CCC2A5400B72674 /* Chain-Reaction-Info.plist */,
+				8478F7CC2C6FE10700CFB41F /* Chain_ReactionApp.swift */,
+				846E361F2C7E2455006ED680 /* ViewModel */,
+				846E36222C7E24DF006ED680 /* View */,
+				846E36232C7E24F6006ED680 /* Old */,
+				8478F7D02C6FE10900CFB41F /* Assets.xcassets */,
+				8478F7D22C6FE10900CFB41F /* Preview Content */,
+			);
+			path = "Chain Reaction";
+			sourceTree = "<group>";
+		};
+		8478F7D22C6FE10900CFB41F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8478F7D32C6FE10900CFB41F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8478F7DC2C6FE10900CFB41F /* Chain ReactionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8478F7DD2C6FE10900CFB41F /* Chain_ReactionTests.swift */,
+			);
+			path = "Chain ReactionTests";
+			sourceTree = "<group>";
+		};
+		8478F7E62C6FE10A00CFB41F /* Chain ReactionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8478F7E72C6FE10A00CFB41F /* Chain_ReactionUITests.swift */,
+				8478F7E92C6FE10A00CFB41F /* Chain_ReactionUITestsLaunchTests.swift */,
+			);
+			path = "Chain ReactionUITests";
+			sourceTree = "<group>";
+		};
+		84DBC34E2CB84BFA006B6A0D /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				846E36242C7E2DC8006ED680 /* PlayerView.swift */,
+				84DBC34F2CB84C22006B6A0D /* PlayerImageView.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		84E0A9382CC83AB2005D7739 /* Pop-Up Views */ = {
+			isa = PBXGroup;
+			children = (
+				84F075902CC6E7910036700C /* GameStartView.swift */,
+				84E0A9362CC83AA4005D7739 /* TurnRequestView.swift */,
+				84E438A92CC055A80097AA7C /* GameEndView.swift */,
+			);
+			path = "Pop-Up Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8478F7C82C6FE10700CFB41F /* Chain Reaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8478F7ED2C6FE10A00CFB41F /* Build configuration list for PBXNativeTarget "Chain Reaction" */;
+			buildPhases = (
+				8478F7C52C6FE10700CFB41F /* Sources */,
+				8478F7C62C6FE10700CFB41F /* Frameworks */,
+				8478F7C72C6FE10700CFB41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chain Reaction";
+			productName = "Chain Reaction";
+			productReference = 8478F7C92C6FE10700CFB41F /* Chain Reaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8478F7D82C6FE10900CFB41F /* Chain ReactionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8478F7F02C6FE10A00CFB41F /* Build configuration list for PBXNativeTarget "Chain ReactionTests" */;
+			buildPhases = (
+				8478F7D52C6FE10900CFB41F /* Sources */,
+				8478F7D62C6FE10900CFB41F /* Frameworks */,
+				8478F7D72C6FE10900CFB41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8478F7DB2C6FE10900CFB41F /* PBXTargetDependency */,
+			);
+			name = "Chain ReactionTests";
+			productName = "Chain ReactionTests";
+			productReference = 8478F7D92C6FE10900CFB41F /* Chain ReactionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8478F7E22C6FE10A00CFB41F /* Chain ReactionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8478F7F32C6FE10A00CFB41F /* Build configuration list for PBXNativeTarget "Chain ReactionUITests" */;
+			buildPhases = (
+				8478F7DF2C6FE10A00CFB41F /* Sources */,
+				8478F7E02C6FE10A00CFB41F /* Frameworks */,
+				8478F7E12C6FE10A00CFB41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8478F7E52C6FE10A00CFB41F /* PBXTargetDependency */,
+			);
+			name = "Chain ReactionUITests";
+			productName = "Chain ReactionUITests";
+			productReference = 8478F7E32C6FE10A00CFB41F /* Chain ReactionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8478F7C12C6FE10600CFB41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8478F7C82C6FE10700CFB41F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8478F7D82C6FE10900CFB41F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8478F7C82C6FE10700CFB41F;
+					};
+					8478F7E22C6FE10A00CFB41F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8478F7C82C6FE10700CFB41F;
+					};
+				};
+			};
+			buildConfigurationList = 8478F7C42C6FE10600CFB41F /* Build configuration list for PBXProject "Chain Reaction" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8478F7C02C6FE10600CFB41F;
+			productRefGroup = 8478F7CA2C6FE10700CFB41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8478F7C82C6FE10700CFB41F /* Chain Reaction */,
+				8478F7D82C6FE10900CFB41F /* Chain ReactionTests */,
+				8478F7E22C6FE10A00CFB41F /* Chain ReactionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8478F7C72C6FE10700CFB41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8478F7D42C6FE10900CFB41F /* Preview Assets.xcassets in Resources */,
+				8478F7D12C6FE10900CFB41F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8478F7D72C6FE10900CFB41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8478F7E12C6FE10A00CFB41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8478F7C52C6FE10700CFB41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84153B082CB9C8B700418D53 /* HashablePoint.swift in Sources */,
+				84A1007C2CC2F291002C2205 /* TimerVM.swift in Sources */,
+				84F075912CC6E7960036700C /* GameStartView.swift in Sources */,
+				8478F7CD2C6FE10700CFB41F /* Chain_ReactionApp.swift in Sources */,
+				845054C52C7EC63B0040E11E /* GameProtocol.swift in Sources */,
+				846E36272C7E2E20006ED680 /* Players.swift in Sources */,
+				84E438AA2CC055AA0097AA7C /* GameEndView.swift in Sources */,
+				84EF44022CB3050400E48306 /* GameView.swift in Sources */,
+				846E36252C7E2DC8006ED680 /* PlayerView.swift in Sources */,
+				846E361E2C7E244A006ED680 /* GridView.swift in Sources */,
+				84427D0D2C83B90A0080E3CF /* HomeView.swift in Sources */,
+				84EF44042CB3085B00E48306 /* AppColors.swift in Sources */,
+				84DBC3502CB84C22006B6A0D /* PlayerImageView.swift in Sources */,
+				84E0A9372CC83AAA005D7739 /* TurnRequestView.swift in Sources */,
+				846EECCA2C8160A600278358 /* GameVM.swift in Sources */,
+				8409ADA62C7243DF003DAC4E /* GridView (Old).swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8478F7D52C6FE10900CFB41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8478F7DE2C6FE10900CFB41F /* Chain_ReactionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8478F7DF2C6FE10A00CFB41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8478F7E82C6FE10A00CFB41F /* Chain_ReactionUITests.swift in Sources */,
+				8478F7EA2C6FE10A00CFB41F /* Chain_ReactionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8478F7DB2C6FE10900CFB41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8478F7C82C6FE10700CFB41F /* Chain Reaction */;
+			targetProxy = 8478F7DA2C6FE10900CFB41F /* PBXContainerItemProxy */;
+		};
+		8478F7E52C6FE10A00CFB41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8478F7C82C6FE10700CFB41F /* Chain Reaction */;
+			targetProxy = 8478F7E42C6FE10A00CFB41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8478F7EB2C6FE10A00CFB41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8478F7EC2C6FE10A00CFB41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8478F7EE2C6FE10A00CFB41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chain Reaction/Preview Content\"";
+				DEVELOPMENT_TEAM = RGXV87MU63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chain-Reaction-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chain Reaction";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Chain-Reaction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8478F7EF2C6FE10A00CFB41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chain Reaction/Preview Content\"";
+				DEVELOPMENT_TEAM = RGXV87MU63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chain-Reaction-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chain Reaction";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Chain-Reaction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8478F7F12C6FE10A00CFB41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGXV87MU63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Chain-ReactionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chain Reaction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chain Reaction";
+			};
+			name = Debug;
+		};
+		8478F7F22C6FE10A00CFB41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGXV87MU63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Chain-ReactionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chain Reaction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chain Reaction";
+			};
+			name = Release;
+		};
+		8478F7F42C6FE10A00CFB41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGXV87MU63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Chain-ReactionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chain Reaction";
+			};
+			name = Debug;
+		};
+		8478F7F52C6FE10A00CFB41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGXV87MU63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Chain-ReactionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chain Reaction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8478F7C42C6FE10600CFB41F /* Build configuration list for PBXProject "Chain Reaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8478F7EB2C6FE10A00CFB41F /* Debug */,
+				8478F7EC2C6FE10A00CFB41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8478F7ED2C6FE10A00CFB41F /* Build configuration list for PBXNativeTarget "Chain Reaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8478F7EE2C6FE10A00CFB41F /* Debug */,
+				8478F7EF2C6FE10A00CFB41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8478F7F02C6FE10A00CFB41F /* Build configuration list for PBXNativeTarget "Chain ReactionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8478F7F12C6FE10A00CFB41F /* Debug */,
+				8478F7F22C6FE10A00CFB41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8478F7F32C6FE10A00CFB41F /* Build configuration list for PBXNativeTarget "Chain ReactionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8478F7F42C6FE10A00CFB41F /* Debug */,
+				8478F7F52C6FE10A00CFB41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8478F7C12C6FE10600CFB41F /* Project object */;
+}
