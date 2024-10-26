@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Chain Reaction — X**
+**Chain Reaction**
 
 _Last updated: Oct 26, 2024
 
